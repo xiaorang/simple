@@ -10,3 +10,10 @@ ADD与COMMIT可以分离
 
 工作区修改，可以通过checkout全部恢复
 暂存区修改（add后），可以通过git reset HEAD恢复
+
+同步到github
+git remote add origin https://github.com/xiaorang/simple.git
+git push -u origin master
+
+以后的推送：
+git push origin master
