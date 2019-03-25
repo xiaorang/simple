@@ -5,3 +5,8 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 直接在本地即可工作，真正的无中心，分布式。
 
 两步提交动作：ADD,commit
+
+ADD与COMMIT可以分离
+
+工作区修改，可以通过checkout全部恢复
+暂存区修改（add后），可以通过git reset HEAD恢复
