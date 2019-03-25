@@ -39,5 +39,14 @@ git branch -d dev
 查看分支情况
 git branch
 --------------------------------
+如果出现分支修改冲突，会用如下的形式标记出来，手工修改。
+<<<<<<< HEAD
 
 master change of conflict
+=======
+test1 of new
+>>>>>>> test1
+--------------------------------
+查看更新记录
+ git log --graph --pretty=oneline --abbrev-commit
+--------------------------------
