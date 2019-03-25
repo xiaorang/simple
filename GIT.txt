@@ -39,3 +39,5 @@ git branch -d dev
 查看分支情况
 git branch
 --------------------------------
+
+master change of conflict
