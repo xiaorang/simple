@@ -21,3 +21,13 @@ git push origin master
 
 创建分支
 git checkout -b dev
+
+进行修改后，再回到主分支，合并
+git checkout master
+git merge dev
+
+删除分支
+git branch -d dev
+
+查看分支情况
+git branch
