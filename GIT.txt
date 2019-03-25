@@ -39,6 +39,9 @@ git merge dev
 删除分支
 git branch -d dev
 
+强行删除分支
+git branch -D feature-vulcan
+
 查看分支情况
 git branch
 --------------------------------
